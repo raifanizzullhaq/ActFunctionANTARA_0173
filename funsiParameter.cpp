@@ -8,3 +8,8 @@ void input()
     cout << "Masukan Lebar :";
     cin >> lebar;
 }
+
+int LuasPersegi()
+{
+    return panjang * lebar;
+}
